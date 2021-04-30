@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 body{
-  background: url("../images/bg-intro-desktop.png");
+  background: url("./images/bg-intro-desktop.png");
   background-color: hsl(0, 100%, 74%);
   color: white;
   margin-top:100px;
@@ -87,7 +87,7 @@ h3{
   body{
      margin: 0;
      margin-top: 2rem;
-     background: url("../images/bg-intro-mobile.png");
+     background: url("./images/bg-intro-mobile.png");
      background-color: hsl(0, 100%, 74%);
 }
 .container{
