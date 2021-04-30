@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+  background: url("../images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+  color: white;
+  margin-top:100px;
+  margin-left:100px;
+}
+.purple-button{
+  border: 1px solid rgb(124, 59, 167);
+  background: rgb(124, 59, 167);
+  color:white;
+  font-size: 1rem;
+  width:108%;
+  height:2rem;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 10px;
+  margin-right:20px;
+  margin-bottom: 10px;
+}
+.form{
+  background:white;
+  /* border:1px solid silver; */
+  background:white;
+  width:100%;
+  height:auto;
+  padding:1.2rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-left:none;
+}
+ input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border-color: hsl(246, 25%, 77%);
+} 
+ input[type=button] {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+   background:hsl(154, 59%, 51%);
+   border-radius: 5px; 
+   color:white;
+} 
+/* .green-button{
+   background:green;
+  border:1px solid silVER;
+  color:white;
+  width:100%;
+  height:auto;
+  padding:1.2rem;
+  border-radius: 10px;
+  text-align: center;
+} */
+h5{
+  color:grey;
+}
+.container{
+  width:100%;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+
+  
+  }
+ .column1-content{
+    width:50%;
+  
+    margin-left:5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-right:5%;
+    
+}
+
+h3{
+  font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+@media screen and  (max-width:600px){
+  body{
+     margin: 0;
+     margin-top: 2rem;
+     background: url("../images/bg-intro-mobile.png");
+     background-color: hsl(0, 100%, 74%);
+}
+.container{
+  margin-top:6rem;
+  width:100% !important;
+  display:block;
+
+}
+h1{
+ width: 268px !important;
+ margin:auto;
+ padding-left:80px;
+}
+h3{
+  width:240px !important;
+ margin:auto;
+}
+ .column1-content{
+  width:100% !important;
+  font-size:10px !important;
+ 
+}
+
+ .form{
+  width: 250px;
+  height:300px;
+  margin:auto;
+  padding: 0;
+} 
+.form p{
+  font-size:10px !important;
+  padding:0;
+  margin:0;
+}
+h5{
+  width: 230px;
+  margin: auto;
+  padding:0;
+
+}
+input[type=text] {
+  width: 70% !important;
+  padding: 8px 20px;
+  
+}
+input[type=button] {
+   width: 70%;
+   box-sizing: border-box;
+   background:hsl(154, 59%, 51%);
+   border-radius: 5px; 
+   color:white;
+   font-size: 0.5rem;
+} 
+
+.purple-button{
+  border: 1px solid rgb(124, 59, 167);
+  background: rgb(124, 59, 167);
+  color:white;
+  font-size: 1rem;
+  width:75% !important;
+  height:1rem !important;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 10px;
+  margin-left:50px;
+  margin-top:20px;
+  margin-bottom: 15px;
+  line-height: 5px;
+}
+}
+
